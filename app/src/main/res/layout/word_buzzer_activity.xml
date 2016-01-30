@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/word_buzzer_bkg">
+
+    <Button
+        android:id="@+id/buzzer_1"
+        android:layout_width="@dimen/buzzer_width"
+        android:layout_height="@dimen/buzzer_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buzzer_1_drawable"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size" />
+
+
+    <Button
+        android:id="@+id/buzzer_2"
+        android:layout_width="@dimen/buzzer_width"
+        android:layout_height="@dimen/buzzer_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buzzer_2_drawable"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size" />
+
+    <Button
+        android:id="@+id/buzzer_3"
+        android:layout_width="@dimen/buzzer_width"
+        android:layout_height="@dimen/buzzer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buzzer_3_drawable"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size" />
+
+    <Button
+        android:id="@+id/buzzer_4"
+        android:layout_width="@dimen/buzzer_width"
+        android:layout_height="@dimen/buzzer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/buzzer_4_drawable"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size" />
+
+    <TextView
+        android:id="@+id/quiz_word"
+        android:layout_width="@dimen/word_width_tv"
+        android:layout_height="@dimen/word_height_tv"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size" />
+
+    <TextView
+        android:id="@+id/quiz_sol_top"
+        android:layout_width="@dimen/word_width_tv"
+        android:layout_height="@dimen/word_height_tv"
+        android:layout_above="@+id/quiz_word"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/word_margin"
+        android:gravity="left|center"
+        android:lines="2"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/quiz_sol_bottom"
+        android:layout_width="@dimen/word_width_tv"
+        android:layout_height="@dimen/word_height_tv"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quiz_word"
+        android:layout_marginTop="@dimen/word_margin"
+        android:gravity="right|center"
+        android:lines="2"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_text_size"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

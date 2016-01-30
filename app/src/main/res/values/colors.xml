@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="word_buzzer_bkg">#212121</color>
+    <color name="buzzer_1_pressed">#1a237e</color>
+    <color name="buzzer_1_not_pressed">#7986cb</color>
+    <color name="buzzer_2_pressed">#bf360c</color>
+    <color name="buzzer_2_not_pressed">#ff5722</color>
+    <color name="buzzer_3_pressed">#004d40</color>
+    <color name="buzzer_3_not_pressed">#009688</color>
+    <color name="buzzer_4_pressed">#311b92</color>
+    <color name="buzzer_4_not_pressed">#9575cd</color>
+    <color name="correct_answer_color">#33691e</color>
+    <color name="wrong_answer_color">#FF4081</color>
+</resources>
