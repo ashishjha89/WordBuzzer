@@ -455,6 +455,13 @@ public class WordBuzzerGameActivity extends AppCompatActivity implements WordLoa
             mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.wrong_answer);
         }
         mediaPlayer.start();
+        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.release();
+            }
+        });
     }
 
     private void setViewBackground(View view, int drawable) {
